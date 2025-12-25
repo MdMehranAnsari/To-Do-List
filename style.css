@@ -1,0 +1,26 @@
+body {
+
+    background-color: rgb(241, 226, 199);
+    background-color: rgb(243, 227, 198);
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+textarea {
+    resize: none;
+    height: auto;
+    border: none;
+    /*background-color: azure;*/
+    background-color: wheat;
+    background-color: rgb(243, 239, 233);
+    text-wrap: wrap;
+}
+
+
+textarea:focus {
+    outline: none;
+    border: none;
+}
